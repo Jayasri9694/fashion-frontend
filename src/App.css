@@ -1,0 +1,8 @@
+body {
+    background-image: url("/public/images/background3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+  }
+  

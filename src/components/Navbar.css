@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:transparent;
+    padding: 15px;
+    color: white;
+    font-family: poppins;
+    font-weight: bold;
+  }
+  .navbar h1 p{
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgb(251, 249, 249);
+  }
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar ul li a {
+    
+    color: rgb(247, 245, 245);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .navbar ul li a:hover{
+    color: rgb(176, 15, 165);
+  }
+  .cart-link {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .cart-count {
+    background: red;
+    color: white;
+    border-radius: 50%;
+    padding: 4px 8px;
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    font-size: 12px;
+  }
+  
